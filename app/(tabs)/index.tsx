@@ -7,7 +7,6 @@ export default function Index() {
       style={styles.view}
     >
       <Text>Hellow</Text>
-      <Link href="/login">Login Page</Link>
     </View>
   );
 }
