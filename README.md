@@ -55,13 +55,13 @@ This is a passion project. It is meant to deliver the following:
     ✅ Be able to add, edit and delete habits.
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/SharleneNdinda/momo-cafe?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/SharleneNdinda/my-habit-tracker?style=for-the-badge
 [contributors-url]: https://github.com/SharleneNdinda/my-habit-trackergraphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SharleneNdinda/momo-cafe?style=for-the-badge
-[forks-url]: https://github.com/SharleneNdinda/my-habit-tracker/forks
-[stars-shield]: https://img.shields.io/github/stars/SharleneNdinda/momo-cafe?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/SharleneNdinda/my-habit-tracker?style=for-the-badge
+[forks-url]: https://github.com/SharleneNdinda/my-habit-tracker/fork
+[stars-shield]: https://img.shields.io/github/stars/SharleneNdinda/my-habit-tracker?style=for-the-badge
 [stars-url]: https://github.com/SharleneNdinda/my-habit-tracker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SharleneNdinda/momo-cafe?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/SharleneNdinda/my-habit-tracker?style=for-the-badge
 [issues-url]: https://github.com/SharleneNdinda/my-habit-tracker/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
