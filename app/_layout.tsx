@@ -1,11 +1,32 @@
-import { Stack } from "expo-router";
+import { Stack, useRouter } from "expo-router";
+import { useEffect } from "react";
 
-// Define shared UI elements here
+function RouteGuard({ children }: { children: React.ReactNode }) {
+  const router = useRouter();
+  const isAuth = false;
+
+  useEffect(() => {
+    if (!isAuth) {
+      router.replace("/auth");
+    }
+  });
+  return <>{children}</>;
+}
+
 export default function RootLayout() {
   return (
-    // Represents whichever screen you are in
-    <Stack>
-      <Stack.Screen name="(tabs)" options={{ headerShown: false}} />
-    </Stack>
+    <RouteGuard>
+      <Stack
+        screenOptions={{
+          headerStyle: {
+            backgroundColor: "#3B5B2F",
+          },
+          headerTintColor: "#fff",
+          headerTitleStyle: {
+            fontWeight: "bold",
+          },
+        }}
+      ></Stack>
+    </RouteGuard>
   );
 }

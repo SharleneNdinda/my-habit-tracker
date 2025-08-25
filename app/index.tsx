@@ -6,7 +6,7 @@ export default function Index() {
     <View
       style={styles.view}
     >
-      <Text>Hellow</Text>
+      <Text>Hey there just take it one step at a time!</Text>
     </View>
   );
 }
